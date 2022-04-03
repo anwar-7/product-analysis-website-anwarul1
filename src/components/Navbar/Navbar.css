@@ -24,7 +24,7 @@ nav {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       padding-left: 10px;
       font-weight: 700;
-      color: blueviolet;
+      color: steelblue;
      
   }
 
@@ -33,8 +33,8 @@ nav {
     text-decoration: none;
     margin-left: 15px;
     font-size: 20px;
-    color: #1e90c2;
     transition: color ease-in-out 300ms;
+    color: slateblue;
   }
   
 .link:hover {
@@ -46,5 +46,5 @@ nav {
     margin-left: 15px;
     font-size: 20px;
     transition: color ease-in-out 300ms;
-    color: #1b4388;
+    color: darkslateblue;
   }

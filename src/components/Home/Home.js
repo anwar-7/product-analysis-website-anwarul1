@@ -1,9 +1,13 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import book from '../../Assets/image/book.png';
+import useReviews from '../../Hooks/useReviews';
 import './Home.css';
 
 const Home = () => {
+  const [reviews, setReviews] = useReviews();
+  // console.log(reviews.slice(0, 3));
+
   return (
     <>
       <div className="home-container">
@@ -26,8 +30,9 @@ const Home = () => {
           <img src={book} alt="Habluder jonno programming By Jhankar Mahbub" />
         </div>
       </div>
+      {/* Customer reviews section */}
       <div>
-        <h1 className="text-center my-5">Customer Reviews</h1>
+        <h1 className="text-center my-5">Customer Reviews{}</h1>
       </div>
     </>
   );

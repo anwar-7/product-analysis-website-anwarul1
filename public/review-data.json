@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 1,
+        "review": "The book is very good. But in different places only Girl Friend is mentioned.\n Why Can't be a Boy Friend? Will the book be worn only by boys? The girls are also programmer brothers.\n If nothing else, just write a partner. 😛 Just kidding .... a great book. Well done!\n",
+        "name": "Moushumi Mou",
+        "rating": 5,
+        "imageURL": "https://i.ibb.co/DGChwfH/girl-1-1.jpg"
+    },
+    {
+        "_id": 2,
+        "review": "Good read for school going kids, who are willing to learn programming or see\n themselves as a software engineer in future. It's very basic but a strong resource to understand the\n fundamental topics of programming in informal language.\n",
+        "name": "Jone Sina",
+        "rating": 4,
+        "imageURL": "https://i.ibb.co/8m0MPFR/boy-1-1.jpg"
+    },
+    {
+        "_id": 3,
+        "review": "A very good for the beginners in Bangla language.\n It will help to make your programming foundation or basic strong!\n",
+        "name": "Kamal Ali",
+        "rating": 5,
+        "imageURL": "https://i.ibb.co/dmVyxt4/boy-2-1.jpg"
+    },
+    {
+        "_id": 4,
+        "review": "This seems to be a good book for those who want to start programming.\n It will not teach you any programming language here.\n It will teach you the basic concept of programming at the\n bottom of the story. It will be a good book for those who want it.\n",
+        "name": "Hero Gazi",
+        "rating": 3,
+        "imageURL": "https://i.ibb.co/6FHdqtm/boy-3-1.jpg"
+    },
+    {
+        "_id": 5,
+        "review": "For those who are confused about programming, nothing is being learned about how to start, those who dream of programming and sleep with oil on their noses...\n the book is very good for them.\n\n Every programming language has some simple things that everyone needs to have an idea about, whether the person is programming or not.\n\n And those who are wasting their time thinking about what to start with, what language to use first, should learn about these basics. This will make learning any programming language easier in the future.\n\n The book manages to entertain as well as inform. All in all, the book is good.",
+        "name": "Kamal khan",
+        "rating": 4,
+        "imageURL": "https://i.ibb.co/3WhTmGD/boy-4-1.jpg"
+    },
+    {
+        "_id": 6,
+        "review": "We are currently at a time when learning programming is important to all of us.\n But many like us do not understand the content of Hablui programming properly.\n The author has written this wonderful book with fun for all these hablus.\n He explained the basics of programming very easily in the book.\n",
+        "name": "Sabrina Khatun",
+        "rating": 5,
+        "imageURL": "https://i.ibb.co/XyBjyMN/girl-2-1.jpg"
+    }
+]

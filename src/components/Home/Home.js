@@ -1,12 +1,15 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import book from '../../Assets/image/book.png';
 import useReviews from '../../Hooks/useReviews';
+import Review from '../Review/Review';
 import './Home.css';
 
 const Home = () => {
   const [reviews, setReviews] = useReviews();
   // console.log(reviews.slice(0, 3));
+  const navigate = useNavigate();
 
   return (
     <>
@@ -15,10 +18,15 @@ const Home = () => {
           <h1>Your next Book</h1>
           <h1>Your bast Book</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            eligendi cum repellendus, voluptatum alias magnam illo quas
-            veritatis ipsum dicta sequi tempora maxime vero quae, libero,
-            laudantium sint et minima!
+            Those who do not get good marks in exams, those who are not
+            considered as good students, are indirectly addressed as donkeys,
+            bulls or habuls. These hubbubs are far behind in the field of study,
+            job market or love.
+          </p>
+          <p>
+            That's why programming has been introduced like the hubbubs, with
+            the chatter of the tea shop. So that the Hablus can enjoy the fun of
+            programming in Hablu style.
           </p>
           <div className="btn-live-demo">
             <Button className="text-center" variant="primary">
@@ -33,8 +41,16 @@ const Home = () => {
       {/* Customer reviews section */}
       <div>
         <h1 className="text-center my-5">
-          Customer Reviews ({reviews.length})
+          Customer Reviews ({reviews.slice(0, 3).length})
         </h1>
+        <div className="home-review-container">
+          {reviews.slice(0, 3).map((review) => (
+            <Review key={review._id} review={review}></Review>
+          ))}
+        </div>
+      </div>
+      <div className="see-all-btn">
+        <button onClick={() => navigate('/reviews')}>SEE ALL REVIEWS</button>
       </div>
     </>
   );

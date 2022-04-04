@@ -32,7 +32,9 @@ const Home = () => {
       </div>
       {/* Customer reviews section */}
       <div>
-        <h1 className="text-center my-5">Customer Reviews{}</h1>
+        <h1 className="text-center my-5">
+          Customer Reviews ({reviews.length})
+        </h1>
       </div>
     </>
   );

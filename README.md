@@ -1,6 +1,11 @@
-# Project name: [Book Shelf](https://book-shelf-a9.netlify.app/)
+# Project Name: [Book Shelf](https://book-shelf-a9.netlify.app/)
 
 `live Website link:` [https://book-shelf-a9.netlify.app/](https://book-shelf-a9.netlify.app/)
+
+- I am using [React Router](https://reactrouter.com/) in this project.
+- Also using [Recharts](https://recharts.org/en-US) for making chat in my dashboard.
+- Make two custom [Hooks](https://reactjs.org/docs/hooks-custom.html) for lode data in locally.
+- Also use [React Bootstrap](https://react-bootstrap.github.io/) for some style.
 
 ## Getting Started with Create React App
 

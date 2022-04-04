@@ -1,9 +1,11 @@
 import React from 'react';
+import './About.css';
+import AboutUs from '../../Assets/image/AboutUs.jpg';
 
 const About = () => {
   return (
-    <div>
-      <h3>bro you forgot me i am about.... </h3>
+    <div className="about-us">
+      <img src={AboutUs} alt="" />
     </div>
   );
 };

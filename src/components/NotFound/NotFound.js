@@ -1,10 +1,11 @@
 import React from 'react';
 import './NotFound.css';
+import notFound from '../../Assets/image/notFound.webp';
 
 const NotFound = () => {
   return (
-    <div>
-      <h1>kew khuje paibona .... 404</h1>
+    <div className="not-found">
+      <img src={notFound} alt="" />
     </div>
   );
 };

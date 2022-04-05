@@ -8,15 +8,14 @@ import './Home.css';
 
 const Home = () => {
   const [reviews, setReviews] = useReviews();
-  // console.log(reviews.slice(0, 3));
   const navigate = useNavigate();
 
   return (
     <>
       <div className="home-container">
         <div className="text-container">
-          <h1>Your next Book</h1>
-          <h1>Your bast Book</h1>
+          <h1 className="hading-one">Your next Book</h1>
+          <h1 className="hading-two">Your bast Book</h1>
           <p>
             Those who do not get good marks in exams, those who are not
             considered as good students, are indirectly addressed as donkeys,

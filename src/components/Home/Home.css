@@ -12,7 +12,15 @@
     align-content: center;
     justify-content: center
 }
+.hading-one{
+    font-weight: 900;
+    color: #ff9900;
+}
 
+.hading-two{
+    font-weight: 900;
+    color: #8a2be2;
+}
 .product-container img{
     width: 100%;
     height: 700px;

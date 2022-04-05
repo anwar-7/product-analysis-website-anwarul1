@@ -26,7 +26,7 @@ const Home = () => {
           <p>
             That's why programming has been introduced like the hubbubs, with
             the chatter of the tea shop. So that the Hablus can enjoy the fun of
-            programming in Hablu style.
+            programming in Hablus style.
           </p>
           <div className="btn-live-demo">
             <Button className="text-center" variant="primary">

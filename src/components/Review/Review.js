@@ -14,7 +14,12 @@ const Review = (props) => {
         <p>
           <small>Rating: ({rating})</small>
         </p>
-        <p>{review}</p>
+        <p>
+          {review.length < 110 ? review.length : review.slice(0, 110)}
+          <small>
+            <b>... Read More</b>
+          </small>
+        </p>
       </div>
     </div>
   );
